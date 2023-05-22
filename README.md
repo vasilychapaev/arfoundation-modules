@@ -1,39 +1,3 @@
-# This repository is no longer actively maintained. It has been archived as a resource.
-
-# This repo is intended to provide more advanced demos for AR Foundation outside of the [Samples Repo](https://github.com/Unity-Technologies/arfoundation-samples/).
-For questions and issues related to AR Foundation please post on the AR Foundation Sample [issues](https://github.com/Unity-Technologies/arfoundation-samples/issues) and **NOT** in this repo. You can also post on the [AR Foundation Forums](https://forum.unity.com/forums/ar.161/)
-
-  
-
-
-# arfoundation-demos
-AR Foundation demo projects.
-
-Demo projects that use [*AR Foundation 4.1.7*](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@4.1/manual/index.html) and demonstrate more advanced functionality around certain features
-
-This set of demos relies on five Unity packages:
-
-* ARSubsystems ([documentation](https://docs.unity3d.com/Packages/com.unity.xr.arsubsystems@4.1/manual/index.html))
-* ARCore XR Plugin ([documentation](https://docs.unity3d.com/Packages/com.unity.xr.arcore@4.1/manual/index.html))
-* ARKit XR Plugin ([documentation](https://docs.unity3d.com/Packages/com.unity.xr.arkit@4.1/manual/index.html))
-* ARFoundation ([documentation](https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@4.1/manual/index.html))
-
-ARSubsystems defines an interface, and the platform-specific implementations are in the ARCore and ARKit packages. ARFoundation turns the AR data provided by ARSubsystems into Unity `GameObject`s and `MonoBehavour`s.
-
-The `master` branch is compatible with Unity 2020.3.13f1+
-
-### Building for Unity 2020.2
-When building for *Android in Unity 2020.2* you need to modify the following settings under Project Settings / Player / Publishing Settings
-* Uncheck Custom Main Gradle Template and 
-* Uncheck Custom Launcher Gradle Template  
-
-These are been removed during the upgrade to Unity 2020.3 LTS
-
-  
-[Image Tracking](#image-tracking--also-available-on-the-asset-store-here) | [Onboarding UX](#ux--also-available-on-the-asset-store-here) | [Mesh Placement](#mesh-placement) | [Shaders](#shaders)
------------- | ------------- | ------------- | ----------------
-
-  
 
 ## Image Tracking 
 ![img](https://user-images.githubusercontent.com/2120584/86505962-759de600-bd7f-11ea-80c5-b494cdd96427.png)
